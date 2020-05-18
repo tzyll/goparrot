@@ -1,0 +1,5 @@
+data/lang/* binary
+data/lang/phones/* binary
+data/test/* binary
+data/test/audio/* binary
+exp/nnet3/tdnn/* binary

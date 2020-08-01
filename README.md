@@ -1,5 +1,6 @@
 # GoParrot
 GoParrot is a simple tool that computes GOP (Goodness of Pronunciation) scores based on [kaldi](https://github.com/kaldi-asr/kaldi) for oral reading assessment.
+It provides the baseline for Interspeech paper "[ASR-Free Pronunciation Assessment](https://arxiv.org/pdf/2005.11902.pdf)".
 
 Name it parrot as parrot repeats what you say (鹦鹉学舌).
 

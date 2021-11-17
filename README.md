@@ -8,15 +8,15 @@ Three kinds of gops can be computed, based on posterior, likelihood and likeliho
 
 - Posterior
 
-  After force-alignment, the log posterior of each phone is the average log posterior of all frames belong to that phone. The GOP score is the average log posterior of all phones. See eq.(7) in this [paper](https://www.isca-speech.org/archive/archive_papers/interspeech_2013/i13_1886.pdf).
+  After force-alignment, the log posterior of each phone is the average log posterior of all frames belong to that phone. The GOP score is the average log posterior of all phones. See eq.(7) in this [paper](https://www.isca-speech.org/archive_v0/archive_papers/interspeech_2013/i13_1886.pdf).
 
 - Likelihood
 
-  After force-alignment, the log likelihood of each phone is the average log likelihood of all frames belong to that phone. The GOP score is the average log likelihood of all phones. See eq.(18) in this [paper](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/2138.pdf).
+  After force-alignment, the log likelihood of each phone is the average log likelihood of all frames belong to that phone. The GOP score is the average log likelihood of all phones. See eq.(18) in this [paper](https://www.isca-speech.org/archive_v0/Interspeech_2018/pdfs/2138.pdf).
 
 - Likelihood ratio
 
-  After force-alignment, the likelihood of each frame can be scaled by dividing the max likelihood of each frame, then the log likelihood ratio of each phone is the average log likelihood ratio of all frames belong to that phone. The GOP score is the average log likelihood ratio of all phones. See eq.(16) involving eq.(18) and (19) in this [paper](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/2138.pdf).
+  After force-alignment, the likelihood of each frame can be scaled by dividing the max likelihood of each frame, then the log likelihood ratio of each phone is the average log likelihood ratio of all frames belong to that phone. The GOP score is the average log likelihood ratio of all phones. See eq.(16) involving eq.(18) and (19) in this [paper](https://www.isca-speech.org/archive_v0/Interspeech_2018/pdfs/2138.pdf).
 
 
 ## How to use it
